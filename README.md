@@ -6,6 +6,8 @@ Digaus' Tracking
 
 digaus has done a remarkable job in developping a 360° target tracking system for the STorM32 gimbal controller, see http://www.rcgroups.com/forums/showthread.php?t=2423260&pp=50. He recently published his codes in the above thread, and on behalf of him I restructured them a bit, to make staring with them easier, and put it on my github.
 
+https://www.youtube.com/watch?v=YNtU7Xp14rA&feature=youtu.be
+
 <br>
 <strong>Arduino Codes, Installation for Windows</strong>
 * Download and install Arduino (I tested with Arduino-1.6.9 for windows): https://www.arduino.cc/en/Main/Software
