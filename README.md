@@ -32,4 +32,5 @@ https://www.youtube.com/watch?v=YNtU7Xp14rA&feature=youtu.be
 
 <br>
 <strong>Android Codes, Installation for Windows</strong>
+
 The Android app was written using the Ionic framework. See http://ionicframework.com/getting-started/.
