@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=YNtU7Xp14rA&feature=youtu.be
 * The ready-to-upload .hex files are also found in the respective folders.
 
 <br>
-<strong>Used Projects&Libraries</strong>
+<strong>Used Arduino Projects&Libraries</strong>
 * Arduino: https://www.arduino.cc/
 * Teensyduino: https://www.pjrc.com/teensy/teensyduino.html
 * Adafruit-BMP085: Limor Fried/Ladyada, https://www.adafruit.com/
@@ -30,3 +30,6 @@ https://www.youtube.com/watch?v=YNtU7Xp14rA&feature=youtu.be
 * TinyGPS++: Mikal Hart, http://arduiniana.org/libraries/tinygpsplus/
 * RFM98W: Mark Jessop, original code by David Ackerman, with changes by digaus, https://github.com/darksidelemm/RFM98Arduino/tree/master/lora_groundstation
 
+<br>
+<strong>Android Codes, Installation for Windows</strong>
+The Android app was written using the Ionic framework. See http://ionicframework.com/getting-started/.
