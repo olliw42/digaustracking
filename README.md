@@ -2,6 +2,7 @@ Digaus' Tracking
 ================
 
 <strong>360° Target Tracking System for STorM32 Gimbal Controller</strong>
+<br>
 
 digaus has done a remarkable job in developping a 360° target tracking system for the STorM32 gimbal controller, see http://www.rcgroups.com/forums/showthread.php?t=2423260&pp=50. He recently published his codes in the above thread, and on behalf of him I restructured them a bit, to make staring with them easier, and put it on my github.
 
