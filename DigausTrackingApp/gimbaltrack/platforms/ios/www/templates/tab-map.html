@@ -1,0 +1,25 @@
+<ion-view hide-nav-bar="true" view-title="Gimbal GPS Tracking">
+	<ion-content>
+		<div id="map" data-tap-disabled="true"></div>
+	</ion-content>
+	<button style="margin-right:5px;margin-top:5px;" id="center" ng-click="center()" on-hold="posHold()" on-touch="onTouchPos()" on-release="onReleasePos()" class="button button-small button-light icon ion-android-locate {{buttonPos}}"></button>
+	<button style="margin-right:5px;margin-top:2px;" id="centerAll" ng-click="centerAll()" on-hold="allHold()" on-touch="onTouchAll()" on-release="onReleaseAll()" class="button button-small button-light icon ion-ionic {{buttonAll}}"></button>
+	<button style="margin-right:5px;margin-top:2px;" id="centerCopter" ng-click="centerCopter()" on-hold="copterHold()" on-touch="onTouchCopter()" on-release="onReleaseCopter()" class="button button-small button-light icon ion-ios-navigate {{buttonCopter}}"></button>
+	<div id="copter" class="item-note {{copterColor}}"><b>Copter: {{copterStatus}}</b></div>
+ 	
+ 	<ion-footer-bar align-title="center" align-button="center" class="">
+ 		<button class="{{poi}}" ng-click="setPOI()">
+		POIs
+		</button>
+		<button class="{{wp}}" ng-click="setWP()">
+		Waypoints
+		</button>
+		<button class="button button-clear icon ion-ios-trash-outline" ng-click="delete()">
+		Delete
+		</button>
+		
+      	<button class="button button-clear icon ion-navicon" ng-click="sidemenu()">
+		</button>
+
+	</ion-footer-bar>
+</ion-view>

@@ -1,0 +1,19 @@
+<ion-view hide-nav-bar="true" view-title="Camera">
+  <ion-content>
+    <ion-list>
+        <button ng-click="startPano()" class="button {{settings.panoColor}}  button-full ">{{settings.startStopPano}}</button>
+        <button ng-click="startVideo()" class="button {{settings.videoColor}}  button-full ">{{settings.startStopVideo}}</button>
+        <div class="item  item-divider"><div class="item-note {{settings.colorGopro}}" >GoPro: {{settings.statusGopro}}</div>Settings</div>
+        <ion-toggle ng-model="settings.PhotoVideo" toggle-class="toggle-calm" ng-click="setPhotoVideo()">
+            Video/Photo
+        </ion-toggle>
+        <ion-toggle ng-model="settings.Pan" toggle-class="toggle-calm" ng-click="setPan()">
+            Hold/Pan
+        </ion-toggle>
+        <ion-toggle ng-model="settings.HDR" toggle-class="toggle-calm" ng-click="setHDR()">
+            HDR
+        </ion-toggle>
+        <button ng-click="center()" class="button button-positive button-full">Recenter Camera</button>
+    </ion-list>
+  </ion-content>
+</ion-view>

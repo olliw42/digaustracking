@@ -1,0 +1,32 @@
+<ion-view hide-nav-bar="true" view-title="Logs">
+  
+  <button style="margin-right:5px;margin-top:5px;" id="centerPosLog" ng-click="center()" on-hold="posHold()" on-touch="onTouchPos()" on-release="onReleasePos()" class="button button-small button-light icon ion-android-locate {{buttonPos}}"></button>
+  <button style="margin-right:5px;margin-top:2px;" id="centerAllLog" ng-click="centerAll()" on-hold="allHold()" on-touch="onTouchAll()" on-release="onReleaseAll()" class="button button-small button-light icon ion-ionic {{buttonAll}}"></button>
+  <button style="margin-right:5px;margin-top:2px;" id="centerCopterLog" ng-click="centerCopter()" on-hold="copterHold()" on-touch="onTouchCopter()" on-release="onReleaseCopter()" class="button button-small button-light icon ion-ios-navigate {{buttonCopter}}"></button>
+  
+  <ion-content>
+    <ion-list ng-hide="logHide">
+      <ion-item ng-click = "showMap(log)" class="item-remove-animate item-icon-right" ng-repeat="log in logs" type="item-text-wrap">
+        <h2>{{log.date}}</h2>
+        <p>{{log.time}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(log)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+    <div ng-hide="mapFooterHide" id="mapLogs" data-tap-disabled="true"></div>
+  </ion-content>
+  <ion-footer-bar ng-hide="mapFooterHide">
+    <button class="button button-clear icon-left ion-ios-arrow-back" ng-click="back()" style="font-size:20px;width:25%;text-align:left">Back</button>
+    <button class="button button-clear icon-left ion-ios-skipbackward-outline" ng-click="backSpeed()" style="font-size:20px;width:10%;text-align:left"></button>
+
+    <div class="button button-clear" style="font-size:20px;width:30%;text-align:center">{{time}}</div>
+
+    <button class="button button-clear icon-right ion-ios-skipforward-outline" ng-click="playSpeed()" style="font-size:20px;width:10%;text-align:right"></button>
+  
+
+    <button class="button button-clear icon-right ion-ios-arrow-forward" ng-click="play()" style="font-size:20px;width:25%;text-align:right">{{startStop}}</button>
+  </ion-footer-bar>
+</ion-view>

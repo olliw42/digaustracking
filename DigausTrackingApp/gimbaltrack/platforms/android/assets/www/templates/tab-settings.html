@@ -1,0 +1,34 @@
+<ion-view hide-nav-bar="true" view-title="Settings">
+  <ion-content>
+    <button ng-click="getDevices()" class="button button-positive button-full ">Update Devices</button>
+     <div class="list">
+      <label class="item item-input item-select">
+      	<div class="input-label">Select Device</div>
+      	<select ng-model="data.selectedDevice" ng-options="device as device.name for device in get.devices">
+       	</select>
+      </label>
+    </div>
+    <button  ng-click="connect(data.selectedDevice)" class="button {{get.statusColor}} button-full ">{{get.statusBLE}}</button>
+    <ion-toggle ng-model="data.externGPS" ng-click="save()" toggle-class="toggle-calm">Use extern GPS</ion-toggle>
+    <ion-toggle ng-model="data.performance" ng-click="save()" toggle-class="toggle-calm">Increase Performance</ion-toggle>
+    <div class="item item-divider"><div class="item-note">{{data.pitch}}°</div>Pitch Offset</div>
+    <div class="item range">
+      <i class="icon ion-ios-minus-outline" ng-click="pitchMinus()"></i>
+      <input type="range" name="pitch" min="-50" max="50" step="1" ng-model="data.pitch" on-release="save()"></input>
+      <i class="icon ion-ios-plus-outline" ng-click="pitchPlus()"></i>
+    </div>
+    <div class="item item-divider"><div class="item-note">{{data.yaw}}°</div>Yaw Offset</div>
+    <div class="item range">
+      <i class="icon ion-ios-minus-outline" ng-click="yawMinus()"></i>
+      <input type="range" name="yaw" min="-50" max="50" step="1" ng-model="data.yaw" on-release="save()"></input>
+      <i class="icon ion-ios-plus-outline" ng-click="yawPlus()"></i>
+    </div>
+    <div class="item item-divider"><div class="item-note">{{data.lowVoltage}}V</div>Low Voltage Threshold</div>
+    <div class="item range">
+      <i class="icon ion-ios-minus-outline" ng-click="voltageMinus()"></i>
+      <input type="range" name="lowVoltage" min="10.00" max="20.00" step="0.1" ng-model="data.lowVoltage" on-release="save()"></input>
+      <i class="icon ion-ios-plus-outline" ng-click="voltagePlus()"></i>
+    </div>
+
+  </ion-content>
+</ion-view>

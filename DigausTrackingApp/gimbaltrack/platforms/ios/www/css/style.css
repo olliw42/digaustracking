@@ -1,0 +1,34 @@
+/* Empty. Add your own CSS if you like */
+.scroll {
+    height: 100%;
+}
+#voltage {
+    color:grey;
+}
+#map {
+    width: 100%;
+    height: 100%;
+} 
+#mapLogs {
+    width: 100%;
+    height: 100%;
+}
+#info {
+	font-size:17px;
+	color:grey;
+	text-align:left;
+}
+#markerOne {
+	color:grey;
+}
+.gm-style-iw, .gm-style-iw div{
+	overflow: hidden !important;
+	margin-bottom: -8px !important;
+}
+.popup {
+	margin-top:0px !important;
+}
+
+.labelPos {
+	opacity: 0;
+}

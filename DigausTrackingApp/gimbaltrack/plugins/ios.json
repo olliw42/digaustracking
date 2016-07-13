@@ -1,0 +1,42 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        },
+        "cordova-plugin-ble-central": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        },
+        "cordova-plugin-bluetooth-serial": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        },
+        "cordova-plugin-insomnia": {
+            "PACKAGE_NAME": "com.ionicframework.gimbaltracking351438"
+        }
+    },
+    "dependent_plugins": {}
+}

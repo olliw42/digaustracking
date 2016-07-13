@@ -1,0 +1,26 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+
+  <ion-tab data-ng-controller="MapCtrl" title="Tracking" icon-off="ion-ios-eye-outline" on-select="reloadMap()" icon-on="ion-ios-eye" href="#/tab/map">
+    <ion-nav-view name="tab-map"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab data-ng-controller="LogCtrl" title="Logs" icon-off="ion-ios-pulse" on-select="reloadMapLogs()" icon-on="ion-ios-pulse-strong" href="#/tab/logs">
+    <ion-nav-view name="tab-logs"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Camera" icon-off="ion-ios-camera-outline" icon-on="ion-ios-camera" href="#/tab/panorama">
+    <ion-nav-view name="tab-panorama"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Settings" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/settings">
+    <ion-nav-view name="tab-settings"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>
