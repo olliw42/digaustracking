@@ -24,9 +24,9 @@ https://www.youtube.com/watch?v=YNtU7Xp14rA&feature=youtu.be
 * Arduino: https://www.arduino.cc/
 * Teensyduino: https://www.pjrc.com/teensy/teensyduino.html
 * Adafruit-BMP085: Limor Fried/Ladyada, https://www.adafruit.com/
-* ESP8266: Wu Pengfei<pengfei.wu@itead.cc> 
-* Mavlink: http://pixhawk.ethz.ch/wiki/software/mavlink/, Lorenz Meier <pixhawk@switched.com> / PIXHAWK Team
+* ESP8266: Wu Pengfei, https://github.com/itead/ITEADLIB_Arduino_WeeESP8266
+* Mavlink: Lorenz Meier, https://github.com/mavlink/mavlink
 * RunningMedian: Rob dot Tillaart at gmail dot com, http://arduino.cc/playground/Main/RunningMedian
 * TinyGPS++: Mikal Hart, http://arduiniana.org/libraries/tinygpsplus/
-* RFM98W: Mark Jessop <vk5qi@rfhead.net>, original code by David Ackerman, with changes by digaus
+* RFM98W: Mark Jessop, original code by David Ackerman, with changes by digaus, https://github.com/darksidelemm/RFM98Arduino/tree/master/lora_groundstation
 
