@@ -13,11 +13,11 @@ https://www.youtube.com/watch?v=YNtU7Xp14rA&feature=youtu.be
 * Download and install Arduino (I tested with Arduino-1.6.9 for windows): https://www.arduino.cc/en/Main/Software
 * Downlaod and install Teensyduino (I tested with Teensyduino 1.29): https://www.pjrc.com/teensy/td_download.html
 * Download this repository (do not forget to extract the .zip)
-* Copy the DigausTrackingSketches folder as it is into your Arduino sketch folder (it is usually Documents/Arduino/). Nothing else needs to be copied or done.
-* In the DigausTrackingSketches folder you find two subfolders, with the sketches for the codes for tracking unit on the gimbal (folder LoraTrackingGimbal), and the tracking unit on the target (LoraTrackingDevice).
+* Copy the DigausTrackingSketches folder as is to your Arduino sketch folder (it is usually Documents/Arduino/). Nothing else needs to be copied or done.
+* In the DigausTrackingSketches folder you find two subfolders, with the sketches for the tracking unit on the gimbal (folder LoraTrackingGimbal), and the tracking unit on the target (LoraTrackingDevice).
 * As usual with Arduino, click the .ino sketch, which opens the Arduino IDE.
 * In the Arduino IDE, go to Tools->Boards and select the Teensy LC.
-* The ready-to-upload .hex files are also found in teh respective folders.
+* The ready-to-upload .hex files are also found in the respective folders.
 
 <br>
 <strong>Used Projects&Libraries</strong>
