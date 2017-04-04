@@ -12,7 +12,6 @@ https://www.youtube.com/watch?v=YNtU7Xp14rA&feature=youtu.be
 <strong>Arduino Codes, Installation for Windows</strong>
 
 * Download and install Arduino (I tested with Arduino-1.6.9 for windows): https://www.arduino.cc/en/Main/Software
-
 * Downlaod and install Teensyduino (I tested with Teensyduino 1.29): https://www.pjrc.com/teensy/td_download.html
 * Download this repository (do not forget to extract the .zip)
 * Copy the DigausTrackingSketches folder as is to your Arduino sketch folder (it is usually Documents/Arduino/). Nothing else needs to be copied or done.
@@ -23,6 +22,7 @@ https://www.youtube.com/watch?v=YNtU7Xp14rA&feature=youtu.be
 
 <br>
 <strong>Used Arduino Projects&Libraries</strong>
+
 * Arduino: https://www.arduino.cc/
 * Teensyduino: https://www.pjrc.com/teensy/teensyduino.html
 * Adafruit-BMP085: Limor Fried/Ladyada, https://www.adafruit.com/
